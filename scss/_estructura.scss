@@ -1,0 +1,29 @@
+* {
+    margin: 2;
+    padding: 2;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #8b1535; 
+}
+.body {
+    /* Medidas pantalla *//* Aplicando Grids*/
+    min-height: 95vh;
+    height: 100%;
+    display: grid; 
+    header {
+        /* header queda arriba */
+        position: sticky;
+        top: 0;
+        background: #8b1535;
+        z-index: 1;
+        /* Separacion logo y menu */
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        /* estilo */
+        padding: 1.2em 3em;
+        box-shadow: 0 0 20px 0 black;
+    }
+} 

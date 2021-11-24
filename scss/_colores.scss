@@ -1,0 +1,41 @@
+/* variables */
+$color_fuente: #8b1535;
+$color_fuente2: #696969;
+$color_fuente3: #000000;
+$color_fuente4: #0066ff!default;
+$color_fuente5: #ffffff;
+$color_primario: #8b1535;
+$color_secundario: #696969;
+$fondo_primario: #ffffff;
+/* uso de variables */
+body {
+    color: $fondo_primario;
+    font-size: 16px;
+}
+header {
+    color: $color_primario;
+}
+p {
+    color: $color_fuente2;
+}
+h1 {
+    background-color: $color_primario;
+}
+h6 {
+    color: $color_fuente3;
+}
+a {
+    color: $color_fuente;
+    span {
+        color: $color_fuente;
+    }
+}
+div { 
+    button {
+    background-color: $color_secundario;
+    color: $color_fuente5;
+    }
+}
+footer {
+    color: $color_primario;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Por consultas, no dudes ponerte en contacto con nosotros.">
+    <meta name="keywords" content="Contacto, consultas vinoteca Cordoba Argentina">
+    <title>Ponete en contacto con nosotros MALBA Vinoteca</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS Estilos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="estiloscss/estilos.css">
+</head>
+<body class="body">
+    <header>
+        <div>
+            <nav class="navPrimario topnav topnav a ">
+                <img src="imagenes/LogoVino.png" alt="LogoVino" width="60" height="60" class="header__logo" />
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover " href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="tienda.html">Ver productos</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+    <!-- Contacto -->
+    <section>
+        <div>
+            <h1>PONETE EN CONTACTO CON NOSOTROS </h1>
+        </div>
+        <div class="textoFormulario">
+            <form action="">
+
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div>
+                    <label for="name">Apellido:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div><strong>Acepta terminos y condiciones</strong></div>
+                <input type="checkbox" name="Acepta" value="1" />
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Tipo de consulta</option>
+                    <option value="1">Información</option>
+                    <option value="2">Reclamos</option>
+                    <option value="3">Envios</option>
+                </select>
+
+                <div>
+                    <textarea name="message" id="message" cols="40" rows="10" required
+                        style="resize: none"></textarea>
+                    <label for="message">Comentario</label>
+                </div>
+                <button type="reset">Limpiar formulario</button>
+                <!-- Button trigger modal -->
+                <button type="submit" class="btn btn-primary btn__primary--color btn__primary--color:hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar formulario
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal__body--color" id="exampleModalLabel">Seguridad</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modal__body--color">
+                                ¿Estas segur@ de enviar el formulario?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Modificar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    </main>
+    <!-- pie de pagina -->
+    <footer>
+        <div>
+            <nav class=" topnav a">
+                <img src="imagenes/LogoVino.png" alt="LogoVino" width="60" height="60" class="header__logo" />
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav__link--hover" href="tienda.html">Ver productos</a>
+                    </li>
+                </ul>
+                <div class="aLaDerecha">
+                    <a href="#"><img src="imagenes/logoinsta.png" width="35" height="35" /></a>
+                    <a href="#"><img src="imagenes/logofacebook.png" width="40" height="40" /></a>
+                    <a href="#"><img src="imagenes/logowhat.png" width="40" height="40" /></a>
+                </div>
+            </nav>
+            
+        </div>
+    </footer>
+</body>
+</html>
