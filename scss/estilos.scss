@@ -208,7 +208,7 @@ input:focus {
 .hero {
     background: url(https://images.pexels.com/photos/8775187/pexels-photo-8775187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     height: 90vh;
-    width: 100px;
+    width: 100%;
     display: grid;
     place-content: center;
 }
@@ -277,6 +277,20 @@ article {
     padding: 14px 16px; 
     text-align: center;
 }
+/*header nuevo*/
+.just-center {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 10%;
+    height: auto;
+}
+/*nav*/
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
 .textoFormulario {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -285,71 +299,28 @@ article {
 }
   /* Mobile first - (pruebas) */
 @media only screen and (max-width: 1024px) {
-body {
-    color: #ffffff;
-    background-color: #8b1535;
-    font-size: 10px;
-}
-.border {
-    border: 2px solid #999596;
-    background-color: #dddadb;
+    body {
+        color: #ffffff;
+        background-color: #8b1535;
+        font-size: 10px;
     }
-}
-@media only screen and (max-width: 768px) {
-.border {
-    border: 2px solid #8b1535;
-    background-color: #8b1535;
+    .border {
+        border: 2px solid #999596;
+        background-color: #dddadb;
+        }
     }
-}
-/* mobile */ 
-@media only screen and (max-width: 578px) {
-.topnav a{
-    background-color: #8b1535;
-    width:100%;
-    text-align: center;
-    font-size: 15px;
+    @media only screen and (max-width: 768px) {
+        body{
+            width: 100%;
+        }
+    .border {
+        border: 2px solid #8b1535;
+        background-color: #8b1535;
+        }
     }
-.header__logo {
-    width: 20%;
-}
-.box_uno {
-    background-color: $brown;
-}
-h1{
-    color:#ffffff;
-    }
-p{
-    color: black;
-    font-size: 15px;
-    }
-label{
-    color: black;
-    }
-img {
-    width: 50%;
-    height: 50%;
-    }
-.imag{
-    width: 100%;
-    height: 100px;
-    }
-.divIframe{
-    width: 50%;
-    height: 50%;
-    display: block;
-    text-align: center;
-}
-.divArticle{
-    width: 100%;
-    height: 100%;
-    display: block;
-    text-align: center;
-    }
-.border {
-    border: 2px solid #8b1535;
-    background-color: #8b1535;
-    }
-}
+    
+    /* mobile */ 
+
 
 @keyframes aparecer {
     0% {
