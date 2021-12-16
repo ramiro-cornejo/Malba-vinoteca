@@ -24,10 +24,10 @@
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top topnav topnav a" id="mainNav">
                 <div class="nav__logo">
                     <a href="index.html"><img src="imagenes/LogoVino.png" alt="LogoVino" width="60" height="60"
-                        class="header__logo" /></a>
+                            class="header__logo" /></a>
                 </div>
                 <div class="container">
-    
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -191,7 +191,9 @@
         </section>
         <!-- productos -->
         <section id="tienda.html" class="border ">
-            <div><h2>Productos</h2></div>
+            <div>
+                <h2>Productos</h2>
+            </div>
             <div class="padre-flex divArticle">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/vinotinto.jpg" class="card-img-top" alt="...">
@@ -259,7 +261,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <!-- Contacto -->
         <section>
@@ -328,37 +330,73 @@
 
         </section>
     </main>
-    <!-- pie de pagina -->
-    <footer>
-        <div>
-            <nav class=" topnav a">
-                <a href="index.html"><img src="imagenes/LogoVino.png" alt="LogoVino" width="60" height="60"
-                        class="header__logo" /></a>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link nav__link--hover" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav__link--hover" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav__link--hover" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav__link--hover" href="contacto.html">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav__link--hover" href="tienda.html">Ver productos</a>
-                    </li>
-                </ul>
-                <div class="aLaDerecha">
-                    <a href="#"><img src="imagenes/logoinsta.png" width="35" height="35" /></a>
-                    <a href="#"><img src="imagenes/logofacebook.png" width="40" height="40" /></a>
-                    <a href="#"><img src="imagenes/logowhat.png" width="40" height="40" /></a>
-                </div>
-            </nav>
-
+    <!-- Footer -->
+    <footer class="text-center text-white footer">
         </div>
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    <strong>¿TE GUSTARIA RECIBIR NUESTRAS MEJORES OFERTAS?</strong>
+                </p>
+            </section>
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscribase a nuestro boletin</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Dirección de correo electrónico</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Suscribir
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                </div>
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <div class="centrarTexto">
+                        <a href="#"><img src="imagenes/logoinsta.png" width="35" height="35" /></a>
+                        <a href="#"><img src="imagenes/logofacebook.png" width="40" height="40" /></a>
+                        <a href="#"><img src="imagenes/logowhat.png" width="40" height="40" /></a>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">ramirocornejo.com</a>
+        </div>
+        <!-- Copyright -->
     </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
