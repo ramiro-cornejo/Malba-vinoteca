@@ -196,7 +196,10 @@ input:focus {
 }
 .header__logo {
     padding-right: 5px;
-    text-align: left;
+    
+}
+.nav__logo {
+    border-width: 10px;
 }
 .nav__link--hover:hover {
     color: #000000;
