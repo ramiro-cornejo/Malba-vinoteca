@@ -196,11 +196,6 @@ input:focus {
 }
 .header__logo {
     padding-right: 5px;
-    
-}
-
-.nav__logo {
-    border-width: 10px;
 }
 .nav__link--hover:hover {
     color: #000000;
@@ -302,43 +297,28 @@ article {
     word-spacing: normal;
 }
   /* Mobile first - (pruebas) */
-@media only screen and (max-width: 1024px) {
+@media screen and (min-width:780px) and (max-width: 1024px){
+    body{
+        background-color:#8b1535;
+    }
+    .carousel .slide {
+        width: 100%;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 780px){
+    body{
+        width: 100%;
+        background-color:#b9b9b9;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px){
     body {
-        color: #ffffff;
-        background-color: #8b1535;
-        font-size: 10px;
+        width: 100%;
     }
-    .border {
-        border: 2px solid #999596;
-        background-color: #dddadb;
-        }
+    .carousel .slide {
+        width: 100%;
     }
-    @media only screen and (max-width: 768px) {
-        body{
-            width: 100%;
-        }
-    .border {
-        border: 2px solid #8b1535;
-        background-color: #8b1535;
-        }
-    }
-    
-    @media only screen and (max-width: 480px) {
-        body{
-            width: 100%;
-            font-size: 2px;
-            align-items: center;
-        }
-        p{
-            font-size: 5px;
-        }
-        .carousel-inner{
-            width: 100%;
-        }
-        
-        
-
-    }
+}
     /* mobile */ 
 
 
@@ -350,7 +330,6 @@ article {
     opacity: 1;
     }
 }
-
 /*footer*/
 .div-footer {
     display: grid;

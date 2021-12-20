@@ -7,7 +7,9 @@ body {
   font-size: 16px; }
 
 header {
-  color: #8b1535; }
+  color: #8b1535;
+  margin-top: 120px;
+}
 
 p {
   color: #696969; }
@@ -28,16 +30,13 @@ div button {
   color: #ffffff; }
 
 footer {
-  color: #8b1535; }
+  color: #8b1535;
+  overflow: hidden;
+  background-color: #8b1535; }
 
 * {
   margin: 2;
   padding: 2; }
-
-footer {
-  overflow: hidden;
-  background-color: #8b1535; }
-
 .body {
   /* Medidas pantalla */
   /* Aplicando Grids*/
@@ -48,15 +47,13 @@ footer {
     /* header queda arriba */
     position: sticky;
     top: 0;
-    background: #8b1535;
     z-index: 1;
     /* Separacion logo y menu */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     /* estilo */
-    padding: 1.2em 3em;
-    box-shadow: 0 0 20px 0 black; }
+    }
 
 h1, h5, a {
   font-family: Arial, Helvetica, sans-serif;
@@ -320,8 +317,8 @@ article {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;
-  text-align: center; }
+  padding: 5px 16px;
+  }
 
 .textoFormulario {
   font-style: normal;
