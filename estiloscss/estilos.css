@@ -52,6 +52,9 @@ main {
   margin: 2;
   padding: 2;
 }
+.color{
+  background-color: #00000033;
+}
 .body {
   /* Medidas pantalla */
   /* Aplicando Grids*/
@@ -435,7 +438,7 @@ iframe{
   font-size: 10px;
 }
 p{
-  font-size: 12px;
+  font-size: 13px;
 }
 }
 @media screen and (max-width: 870px) {
